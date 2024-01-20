@@ -174,7 +174,7 @@ botoesComAudio.forEach(function (botao) {
 var figure = document.querySelector('.gif__teste')
 var gif = figure.querySelector('img');
 function mostrarGif(id) {
-    gif.src = `/img/video/${id}.gif`;
+    gif.src = `assets/img/video/${id}.gif`;
     figure.style.display = 'block'
 }
 function CloseGif() {
