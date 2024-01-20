@@ -40,14 +40,14 @@ document.querySelectorAll('.about__container img').forEach(image => {
         document.querySelector('.popup-image').style.display = 'block';
         document.querySelector('.popup-image img').src = image.getAttribute('src');
         document.querySelector('.navBarShow').style.display = 'none'
-        document.querySelector('.footerShow').style.position = 'relative';
+        //document.querySelector('.footerShow').style.position = 'relative';
     }
 });
 
 document.querySelector('.popup-image span').onclick = () => {
     document.querySelector('.popup-image').style.display = 'none';
     document.querySelector('.navBarShow').style.display = 'block'
-    document.querySelector('.footerShow').style.position = 'fixed';
+    //document.querySelector('.footerShow').style.position = 'fixed';
 
 };
 
