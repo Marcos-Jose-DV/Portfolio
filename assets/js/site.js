@@ -98,11 +98,11 @@ botoesComAudio.forEach(function (botao) {
         var novoAudio = botao.querySelector('.audio__habilidade');
         var idDoElemento = botao.id;
 
-        if (img.src.endsWith('/img/icons/botao-play.png')) {
-            img.src = '/img/icons/botao-pause.png';
+        if (img.src.endsWith('assets/img/icons/botao-play.png')) {
+            img.src = 'assets/img/icons/botao-pause.png';
 
         } else {
-            img.src = '/img/icons/botao-play.png';
+            img.src = 'assets/img/icons/botao-play.png';
         }
 
         if (audioAtual && audioAtual !== novoAudio) {
@@ -119,7 +119,7 @@ botoesComAudio.forEach(function (botao) {
                 CloseGif();
             }
             else {
-                img.src = '/img/icons/botao-play.png'
+                img.src = 'assets/img/icons/botao-play.png'
                 CloseGif();
             }
         });
@@ -144,18 +144,18 @@ botoesComAudio.forEach(function (botao) {
         playText.innerHTML = '';
         play.style.display = 'block'
 
-        if (img.src.endsWith('/img/icons/botao-play.png') || img.src === '') {
-            img.src = '/img/icons/botao-play.png';
+        if (img.src.endsWith('assets/img/icons/botao-play.png') || img.src === '') {
+            img.src = 'assets/img/icons/botao-play.png';
             return;
         }
 
-        img.src = '/img/icons/botao-pause.png';
+        img.src = 'assets/img/icons/botao-pause.png';
     });
     botao.addEventListener('mouseleave', function () {
-        if (!img.src.endsWith('/img/icons/botao-pause.png')) {
+        if (!img.src.endsWith('assets/img/icons/botao-pause.png')) {
             if (final) {
                 curso = true;
-                img.src = '/img/icons/botao-pause.png';
+                img.src = 'assets/img/icons/botao-pause.png';
                 botao.classList.remove('active');
                 play.style.display = 'none'
                 playText.innerHTML = textoAntigo;
