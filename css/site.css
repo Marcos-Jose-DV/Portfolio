@@ -1,0 +1,159 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.main_projetos {
+    margin-top: 100px;
+}
+
+figure {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+   align-items: center;
+}
+
+figure img {
+    width: 80px;
+    height: 80px;
+    margin-left: 35px;
+    margin-top: -5px;
+}
+.tv__show{
+    display: flex;
+    align-items: center;
+}
+.tv__image {
+    width: 200px;
+    margin-top: 15px;
+    margin-left: -5px;
+   display: none;
+}
+.play{
+    display: none;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+footer {
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+/* ===== Po-pup Nav =====*/
+
+
+.card__course {
+    min-height: 170px;
+}
+
+.home__img {
+    cursor: pointer;
+}
+
+.habilidade__isvible {
+    cursor: pointer;
+    transition: transform .5s ease-out;
+}
+
+@media (max-width:768px) {
+    .container__habilidade div {
+        margin: 0px;
+    }
+}
+
+.curso__isvible {
+    cursor: pointer;
+    transition: transform .5s ease-out;
+}
+
+.about__img {
+    cursor: pointer;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+/* ===== Po-pup Img =====*/
+.about__container .popup-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.859);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.about__container .popup-image span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.about__container .popup-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.about__container .popup-image-projeto img {
+    width: 700px;
+    cursor: pointer;
+}
+
+.about__container .popup-image-projeto span {
+    cursor: pointer;
+}
+
+
+@media (max-width:768px) {
+    .about__container .popup-image img {
+        width: 80%;
+    }
+}
+
+@media (max-width:768px) {
+    .about__container .image-sobre img {
+        width: 100px;
+        margin-bottom: 30px;
+
+    }
+}
