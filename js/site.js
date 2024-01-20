@@ -68,10 +68,11 @@ isVisbleCurso.addEventListener('click', function () {
 function ActiveContainer(button, container) {
 
     container.style.display = container.style.display == 'none' ? 'block' : 'none';
-    if (container.style.display == 'none') {
+    if (container.style.display === 'none') {
         button.style.transform = 'rotate(' + 0 + 'deg)';
-        footer.style.position = 'fixed';
+        //footer.style.position = 'fixed';
         tv.style.display = 'none';
+       
         return;
     }
     button.style.transform = 'rotate(' + 90 + 'deg)';
@@ -123,8 +124,6 @@ botoesComAudio.forEach(function (botao) {
             }
         });
 
-
-
         if (novoAudio.paused) {
             ConfigTexto(textoAnterior, botaoAnterior);
             novoAudio.play();
@@ -133,7 +132,6 @@ botoesComAudio.forEach(function (botao) {
             mostrarGif(idDoElemento);
             return;
         }
-
 
         novoAudio.pause();
         novoAudio.currentTime = 0;
@@ -189,7 +187,6 @@ function ConfigTexto(text, e) {
         novo = e;
         
         text.innerHTML = e;
-        
     }
 }
 
