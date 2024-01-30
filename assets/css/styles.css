@@ -261,15 +261,14 @@ img {
 
 @media (max-width:767px) {
   .home__img {
-    width: 70%;
+    width: 65%;
 
   }
 }
 
 @media (max-width:767px) {
   .home__blob-img {
-    width: 70%;
-    margin-left: -25px;
+    margin-left: -56px;
   }
 }
 
