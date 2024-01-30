@@ -1,5 +1,4 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
 
 /*===== VARIABLES CSS =====*/
@@ -383,19 +382,19 @@ img {
   border-radius: .5rem;
 }
 
-/* ===== WORK =====*/
-.work__container {
+/* ===== project =====*/
+.project__container {
   row-gap: 2rem;
 }
 
-.work__img {
+.project__img {
   box-shadow: 0px 1px 5px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
   overflow: hidden;
   margin: 10px;
 }
 
-.work__img img {
+.project__img img {
   height: 170px;
   width: 100%;
   object-fit: cover;
@@ -403,7 +402,7 @@ img {
   cursor: pointer;
 }
 
-.work__img img:hover {
+.project__img img:hover {
   transform: scale(1.1);
   display: flex;
   flex-direction: column;
@@ -412,30 +411,18 @@ img {
 
 }
 
-.work__title {
+.project__title {
   margin: 20px;
 }
 
-.work__title h3 {
+.project__title h3 {
   color: #1F9BCF;
 
 }
 
-.work__title p {
+.project__title p {
   color: #1A1A1A;
 }
-
-/* .work__img span{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #512bd4;
-  width: 100%;
-  padding: 10px;
-  color: white;
-  font-weight: bold;
-} */
 
 /* ===== Courses =====*/
 .courses__container {
@@ -584,7 +571,7 @@ img {
     column-gap: 1rem;
   }
 
-  .work__container {
+  .project__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     padding-top: 2rem;
@@ -662,7 +649,7 @@ img {
     text-align: initial;
   }
 
-  .work__container {
+  .project__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
