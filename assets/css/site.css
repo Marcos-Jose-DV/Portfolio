@@ -23,40 +23,13 @@ html {
 body {
     margin-bottom: 60px;
 }
+.home{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
 
 .main_projetos {
     margin-top: 100px;
-}
-
-figure {
-    width: 50px;
-    height: 50px;
-    display: block;
-    position: absolute;
-   align-items: center;
-}
-
-figure img {
-    width: 80px;
-    height: 80px;
-    margin-left: 35px;
-    margin-top: -5px;
-}
-.tv__show{
-    display: flex;
-    align-items: center;
-}
-.tv__image {
-    width: 200px;
-    margin-top: 15px;
-    margin-left: -5px;
-   display: none;
-}
-.play{
-    display: none;
-    align-items: center;
-    justify-content: center;
-   
 }
 
 footer {
@@ -64,12 +37,9 @@ footer {
     right: 0;
     left: 0;
     bottom: 0;
-    display: block;
 }
 
 /* ===== Po-pup Nav =====*/
-
-
 .card__course {
     min-height: 170px;
 }
@@ -155,5 +125,127 @@ footer {
         width: 100px;
         margin-bottom: 30px;
 
+    }
+}
+.habilidade{
+    margin-top: 5rem;
+    margin-bottom: 5rem;  
+}
+.title h3{
+   text-align: center;
+}
+.container__habilidade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sBlog {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.sBlog h3{
+    display: flex;
+    justify-content: center;
+}
+
+.sBlog .top {
+    margin-bottom: 2rem;
+}
+
+.sBlog .top .allArticles {
+    gap: 1rem;
+}
+
+.sBlog .containerBlog {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.3rem;
+}
+
+.sBlog .containerBlog .boxBlog {
+    transition: all .4s;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.sBlog .containerBlog .boxBlog:hover {
+    background-color: rgba(59, 57, 63, 0.048);
+    transform: translateY(-20px);
+}
+
+.sBlog .containerBlog .boxBlog .image img {
+    object-fit: cover;
+    height: 19rem;
+    border-radius: 10px;
+    margin-bottom: 2.4rem;
+}
+
+.sBlog .containerBlog .boxBlog .text h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 1.6rem;
+}
+
+.sBlog .containerBlog .boxBlog .text p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 180%;
+    margin-bottom: 1.6rem;
+}
+
+.sBlog .containerBlog .boxBlog .text .tags {
+    font-size: 1.3rem;
+    font-weight: 500;
+    gap: 1.5rem;
+}
+
+.sBlog .containerBlog .boxBlog .text .tags span {
+    background-color: #f8f8f8;
+    padding: .8rem;
+    border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+    .sBlog {
+        margin-top: 6rem;
+        margin-bottom: 10rem;
+    }
+
+    .sBlog .containerBlog {
+        grid-gap: 0;
+    }
+}
+
+@media (max-width: 750px) {
+    .sBlog .containerBlog {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .sBlog .containerBlog {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 40rem;
+    }
+
+    .sBlog .top h4 {
+        font-size: 3rem;
+    }
+
+    .sBlog .containerBlog .boxBlog:hover {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 460px) {
+    .sBlog .top .allArticles {
+        display: flex;
     }
 }
