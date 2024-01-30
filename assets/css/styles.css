@@ -441,12 +441,14 @@ img {
 .courses__container {
   row-gap: 2rem;
 }
+
 .course__img {
   box-shadow: 0px 1px 5px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
   overflow: hidden;
   margin: 10px;
 }
+
 .course__img img {
   height: 170px;
   width: 100%;
@@ -511,7 +513,7 @@ img {
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
-  padding: 2rem 0;
+  padding: 2px;
 }
 
 .footer__title {
@@ -587,7 +589,8 @@ img {
     column-gap: 2rem;
     padding-top: 2rem;
   }
-  .course__container{
+
+  .course__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     padding-top: 2rem;
@@ -663,7 +666,8 @@ img {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
-  .course__container{
+
+  .course__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
