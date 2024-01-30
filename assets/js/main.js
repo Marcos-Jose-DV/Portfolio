@@ -42,7 +42,7 @@ function scrollActive(){
 window.addEventListener('scroll', scrollActive)
 
 /*===== Popup ANIMATION =====*/
-document.querySelectorAll('.work__container img').forEach(image =>{
+document.querySelectorAll('.popup__container img').forEach(image =>{
     image.onclick = () =>{
         document.querySelector('.popup-image').style.display = 'block';
         document.querySelector('.popup-image img').src = image.getAttribute('src');

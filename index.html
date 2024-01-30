@@ -24,7 +24,7 @@
                     <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
                     <li class="nav__item"><a href="#skills" class="nav__link">Abilidades</a></li>
-                    <li class="nav__item"><a href="#courses" class="nav__link">Cursos</a></li>
+                    <li class="nav__item"><a href="#course" class="nav__link">Cursos</a></li>
                 </ul>
             </div>
             <div class="nav__toggle" id="nav-toggle">
@@ -54,7 +54,7 @@
             </div>
 
             <div class="home__img">
-                <img class="home__blob-img" src="assets/img/perfil.jpeg" />
+                <img class="home__blob-img" src="assets/img/perfil/perfil.jpeg" />
             </div>
         </section>
 
@@ -63,14 +63,17 @@
             <h2 class="section-title">Sobre</h2>
             <div class="about__container bd-grid">
                 <div class="about__img">
-                    <img src="assets/img/perfil02.jpg" alt="Foto minha com um Cachorro">
+                    <img src="assets/img/perfil/perfil02.jpg" alt="Foto minha com um Cachorro">
                 </div>
                 <div class="about__text">
                     <p class="about__description">Minha jornada na programação começou em agosto de 2022, quando iniciei
                         meu
                         curso na faculdade de Análise e Desenvolvimento de Sistemas. Comecei com Python, mas enfrentei
                         dificuldades e desisti. Após dois meses, decidi retomar e recomecei da maneira certa, focando em
-                        lógica de programação. Fiz o curso Algoritmos e Lógica de Programação ministrado por Nelio Alves
+                        lógica de programação. Fiz o curso <a
+                            href="https://www.udemy.com/certificate/UC-f1c67792-d256-4dbe-af26-159787e76b8f/"
+                            target="_blank" rel="noopener noreferrer">Algoritmos e Lógica de Programação ministrado</a>
+                        por Nelio Alves
                         na Udemy, o que esclareceu muitos conceitos básicos. No final de 2022, em novembro, consegui um
                         estágio em desenvolvimento em C#. Ao longo de 2023, concentrei-me no universo .NET, aprendendo
                         os fundamentos de maneira sólida. Atualmente, estou focado principalmente no Back-End, mas
@@ -89,13 +92,12 @@
         <!--===== Projects =====-->
         <section class="work section" id="work">
             <h2 class="section-title">Projetos</h2>
-
-            <div class="work__container bd-grid">
+            <div class="work__container popup__container bd-grid">
                 <div class="work__img">
                     <div>
                         <img src="assets/img/projects/baner01.png" alt="Image do primeiro projeto">
                     </div>
-                    <div class="work__title">
+                    <div class="work__title" style="margin: 20px;">
                         <h3>4C MARKET</h3>
                         <p>OFERECEU AOS FUNCIONÁRIOS A OPORTUNIDADE DE TROCAR MOEDAS VIRTUAIS POR PRODUTOS, INCENTIVANDO
                             UM AMBIENTE DE TRABALHO RECOMPENSADOR.</p>
@@ -103,35 +105,35 @@
 
                 </div>
                 <div class=" work__img">
-                        <div>
-                            <img src="assets/img/projects/projeto02.png" alt="Image do primeiro projeto">
-                        </div>
-                        <div class="work__title" style="margin: 20px;">
-                            <h3>APPDOC</h3>
-                            <p>RESOLVIR CRIAR ESSE APP PARA USO PESSOAL PARA SALVAR TEXTOS COM DICAS DE PROGRAMAÇÃO,
-                                ALGO QUE PRECISAVA, ENTÃO EU MESMO FIZ, ESCOLHI O NET MAUI POR TER UM POUCO DE
-                                CONHECIMENTO NO C#.</p>
-                        </div>
-
+                    <div>
+                        <img src="assets/img/projects/projeto02.png" alt="Image do primeiro projeto">
                     </div>
-                    <div class=" work__img">
-                        <div>
-
-                            <img src="assets/img/projects/projeto03.jpg" alt="Image do primeiro projeto">
-                        </div>
-                        <div class="work__title" style="margin: 20px;">
-                            <h3>PORTFOLIO MOBILE</h3>
-                            <p>EM CONSTRUÇÃO...</p>
-                        </div>
-
+                    <div class="work__title" style="margin: 20px;">
+                        <h3>APPDOC</h3>
+                        <p>RESOLVIR CRIAR ESSE APP PARA USO PESSOAL PARA SALVAR TEXTOS COM DICAS DE PROGRAMAÇÃO,
+                            ALGO QUE PRECISAVA, ENTÃO EU MESMO FIZ, ESCOLHI O NET MAUI POR TER UM POUCO DE
+                            CONHECIMENTO NO C#.</p>
                     </div>
 
-
-                    <div class=" popup-image">
-                        <span>&times;</span>
-                        <img src="assets/img/work1.jpg" alt="">
-                    </div>
                 </div>
+                <div class=" work__img">
+                    <div>
+
+                        <img src="assets/img/projects/projeto03.jpg" alt="Image do primeiro projeto">
+                    </div>
+                    <div class="work__title" style="margin: 20px;">
+                        <h3>PORTFOLIO MOBILE</h3>
+                        <p>EM CONSTRUÇÃO...</p>
+                    </div>
+
+                </div>
+
+
+                <div class=" popup-image">
+                    <span>&times;</span>
+                    <img src="assets/img/work1.jpg" alt="">
+                </div>
+            </div>
         </section>
 
         <!--===== SKILLS =====-->
@@ -140,8 +142,9 @@
             <div class="skills__container bd-grid">
                 <div class="skills__backend">
                     <h2 class="skills__subtitle">Back-End</h2>
-                    <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id
-                        vero amet, alias architecto consectetur error eum eaque sit.</p>
+                    <p class="skills__text">Foco meus estudos em C# para desenvolvimento de APIs, enquanto utilizo
+                        Python e Rust para análise de dados, buscando uma abordagem abrangente na construção e análise
+                        de sistemas.</p>
                     <div class="skills__data">
                         <div class="skills__names">
 
@@ -152,6 +155,17 @@
                         </div>
                         <div class="skills__icon">
                             <img src="assets/img/icons/csharp.ico" />
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <span class="skills__name">Python</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div class="skills__icon">
+                            <img src="assets/img/icons/python.svg" />
                         </div>
                     </div>
                     <div class="skills__data">
@@ -226,141 +240,104 @@
                             <img src="assets/img/icons/sqlserver.png" />
                         </div>
                     </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxs-paint skills__icon'></i>
-                            <span class="skills__name">UX/UI</span>
-                        </div>
-                        <div class="skills__bar skills__ux">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">Básico</span>
-                        </div>
-                    </div>
-
                 </div>
                 <div class="skills__frontend">
                     <h2 class="skills__subtitle">Front-End</h2>
-                    <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id
-                        vero amet, alias architecto consectetur error eum eaque sit.</p>
-
-
+                    <p class="skills__text">Possuo conhecimentos básicos em diversas áreas, porém, minha especialização
+                        está direcionada para o desenvolvimento backend e análise de dados.</p>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <img style="width: 15%; margin-right: 7%;" src="assets/img/csharp.ico" />
-                            <!-- <i class='bx bxl-html5 skills__icon'></i> -->
-                            <span class="skills__name">C#</span>
+                            <span class="skills__name">Razor Pages</span>
                         </div>
                         <div class="skills__bar skills__html">
 
                         </div>
-                        <div>
-                            <span class="skills__percentage">Básico</span>
+                        <div class="skills__icon">
+                            <img src="assets/img/icons/blazor.png" />
                         </div>
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bxl-css3 skills__icon'></i>
-                            <span class="skills__name">CSS3</span>
+                            <span class="skills__name">Blazor</span>
                         </div>
-                        <div class="skills__bar skills__css">
+                        <div class="skills__bar skills__html">
 
                         </div>
-                        <div>
-                            <span class="skills__percentage">Básico</span>
+                        <div class="skills__icon">
+                            <img src="assets/img/icons/blazor.png" />
                         </div>
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bxl-javascript skills__icon'></i>
-                            <span class="skills__name">JAVASCRIPT</span>
+                            <span class="skills__name">CSS</span>
                         </div>
-                        <div class="skills__bar skills__js">
+                        <div class="skills__bar skills__html">
 
                         </div>
-                        <div>
-                            <span class="skills__percentage">Básico</span>
+                        <div class="skills__icon">
+                            <img src="assets/img/icons/css.png" />
                         </div>
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bxs-paint skills__icon'></i>
-                            <span class="skills__name">UX/UI</span>
+                            <span class="skills__name">HTML</span>
                         </div>
-                        <div class="skills__bar skills__ux">
+                        <div class="skills__bar skills__html">
 
                         </div>
-                        <div>
-                            <span class="skills__percentage">Básico</span>
+                        <div class="skills__icon">
+                            <img src="assets/img/icons/html.png" />
                         </div>
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bxs-paint skills__icon'></i>
-                            <span class="skills__name">UX/UI</span>
+                            <span class="skills__name">JavaScript</span>
                         </div>
-                        <div class="skills__bar skills__ux">
+                        <div class="skills__bar skills__html">
 
                         </div>
-                        <div>
-                            <span class="skills__percentage">Básico</span>
+                        <div class="skills__icon">
+                            <img src="assets/img/icons/js.png" />
                         </div>
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bxs-paint skills__icon'></i>
-                            <span class="skills__name">UX/UI</span>
+                            <span class="skills__name">Angular</span>
                         </div>
-                        <div class="skills__bar skills__ux">
+                        <div class="skills__bar skills__html">
 
                         </div>
-                        <div>
-                            <span class="skills__percentage">Básico</span>
-                        </div>
-
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxs-paint skills__icon'></i>
-                            <span class="skills__name">UX/UI</span>
-                        </div>
-                        <div class="skills__bar skills__ux">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">Básico</span>
+                        <div class="skills__icon">
+                            <img src="assets/img/icons/angular.png" />
                         </div>
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bxs-paint skills__icon'></i>
-                            <span class="skills__name">UX/UI</span>
+                            <span class="skills__name">Typescript</span>
                         </div>
-                        <div class="skills__bar skills__ux">
+                        <div class="skills__bar skills__html">
 
                         </div>
-                        <div>
-                            <span class="skills__percentage">Básico</span>
+                        <div class="skills__icon">
+                            <img src="assets/img/icons/ts.png" />
                         </div>
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bxs-paint skills__icon'></i>
-                            <span class="skills__name">UX/UI</span>
+                            <span class="skills__name">Streamlit</span>
                         </div>
-                        <div class="skills__bar skills__ux">
+                        <div class="skills__bar skills__html">
 
                         </div>
-                        <div>
-                            <span class="skills__percentage">Básico</span>
+                        <div class="skills__icon">
+                            <img src="assets/img/icons/streamlit.png" />
                         </div>
                     </div>
-
                 </div>
                 <div class="skills__mobile">
                     <h2 class="skills__subtitle">Mobile</h2>
-                    <p class="skills__text">Desenvolvi meu primeiro projeto mobile com Net MAUI, utilizando LiteDB como banco não relacional.</p>
+                    <p class="skills__text">Desenvolvi meu primeiro projeto mobile com Net MAUI, utilizando LiteDB como
+                        banco não relacional.</p>
                     <div class="skills__data">
                         <div class="skills__names">
                             <span class="skills__name">Net Maui</span>
@@ -386,28 +363,29 @@
                 </div>
                 <div class="skills__devops">
                     <h2 class="skills__subtitle">DevOps</h2>
-                    <p class="skills__text">Tenho conhecimentos básicos em Azure, mas possuo uma compreensão um pouco mais avançada em Git e GitHub.</p>
+                    <p class="skills__text">Tenho conhecimentos básicos em Azure, mas possuo uma compreensão um pouco
+                        mais avançada em Git e GitHub.</p>
 
                     <div class="skills__data">
                         <div class="skills__names">
-                            <span class="skills__name">Net Maui</span>
+                            <span class="skills__name">Git GitHub</span>
                         </div>
                         <div class="skills__bar skills__html">
 
                         </div>
                         <div class="skills__icon">
-                            <img src="assets/img/icons/maui.png" />
+                            <img src="assets/img/icons/git.png" />
                         </div>
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <span class="skills__name">Net Maui</span>
+                            <span class="skills__name">Azure</span>
                         </div>
                         <div class="skills__bar skills__html">
 
                         </div>
                         <div class="skills__icon">
-                            <img src="assets/img/icons/maui.png" />
+                            <img src="assets/img/icons/azure.png" />
                         </div>
                     </div>
                 </div>
@@ -415,27 +393,27 @@
         </section>
 
         <!--===== Courses =====-->
-        <section class="work section" id="courses">
+        <section class="course section" id="course">
             <h2 class="section-title">Cursos e Certificados</h2>
-
-            <div class="work__container bd-grid">
-                <div class="work__img">
-                    <img src="assets/img/courses/logica.jpg" alt="">
+            <div class="course__container popup__container bd-grid">
+                <div class="course__img" >
+                    <img src="assets/img/courses/logica.jpg" alt="Certificado do curso Algoritmos e lógica">
                 </div>
-                <div href="" class="work__img">
-                    <img src="assets/img/work2.jpg" alt="">
+                <div href="" class="course__img">
+                    <img src="assets/img/courses/fundamentoscsharp02.jpg"
+                        alt="Certificado do curso fundamentos do csharp">
                 </div>
-                <div href="" class="work__img">
-                    <img src="assets/img/work3.jpg" alt="">
+                <div href="" class="course__img">
+                    <img src="assets/img/courses/netmaui01.jpg" alt="Certificado do curso de net maui">
                 </div>
-                <div href="" class="work__img">
-                    <img src="assets/img/work4.jpg" alt="">
+                <div href="" class="course__img">
+                    <img src="assets/img/courses/razorpages01.jpg" alt="Certificado do curso razor pages">
                 </div>
-                <div href="" class="work__img">
-                    <img src="assets/img/work5.jpg" alt="">
+                <div href="" class="course__img">
+                    <img src="assets/img/courses/netmaui02.jpg" alt="Certificdo do curso net maui">
                 </div>
-                <div href="" class="work__img">
-                    <img src="assets/img/work6.jpg" alt="">
+                <div href="" class="course__img">
+                    <img src="assets/img/courses/js01.jpg" alt="Certificado do curso javascript">
                 </div>
                 <div class="popup-image">
 
