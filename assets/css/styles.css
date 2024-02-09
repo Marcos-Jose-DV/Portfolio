@@ -375,7 +375,7 @@ img {
   cursor: pointer;
 }
 .download__Button{
-  align-items: center;
+  text-align: center;
   background-color: transparent;
   border: none;
   color: #fff;
