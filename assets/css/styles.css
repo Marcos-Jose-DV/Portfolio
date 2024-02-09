@@ -382,9 +382,6 @@ img {
   font-weight: var(--font-semi);
   cursor: pointer;
 }
-@media screen {
-  
-}
 
 /* ===== SKILLS =====*/
 .skills__container {

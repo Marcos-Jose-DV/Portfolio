@@ -69,11 +69,11 @@ sr.reveal('.home__social-icon',{ interval: 200});
 sr.reveal('.project__img, .skills__data, .course__img',{interval: 200}); 
 
 /*===== DOWLOAD MOBILE =====*/
-// if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-//     document.querySelector(".download").style.display = 'block';
-// } else {
-//     document.querySelector(".download").style.display = 'none';
-// }
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    document.querySelector(".download").style.display = 'block';
+} else {
+    document.querySelector(".download").style.display = 'none';
+}
 
 document.querySelector(".download__Button").addEventListener('click', function(){
     var url = "assets/download/appportfolio.aab";
