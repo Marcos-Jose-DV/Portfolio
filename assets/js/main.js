@@ -70,8 +70,23 @@ sr.reveal('.project__img, .skills__data, .course__img',{interval: 200});
 
 
 // download mobile
+
+
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    document.getElementById('downloadButton').style.display = 'block';
+    document.querySelector(".download").style.display = 'block';
 } else {
-    document.getElementById('downloadButton').style.display = 'none';
+    document.querySelector(".download").style.display = 'none';
 }
+
+document.querySelector(".download__Button").addEventListener('click', function(){
+    var url = "assets/download/com.companyname.appportfolio.aab";
+    var file = "com.companyname.appportfolio.aab";
+
+    var link = document.createElement("a");
+    link.href = url;
+    link.dowload = file;
+
+    document.querySelector(".download").appendChild(link);
+    link.click();
+    document.querySelector(".download").removeChild(link);
+});

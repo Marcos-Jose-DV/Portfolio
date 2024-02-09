@@ -364,6 +364,23 @@ img {
 .project__title p {
   color: #1A1A1A;
 }
+.download{
+  display: flex;
+  justify-content: center;
+  background-color: #007bff;
+  margin-top: 15px; 
+  padding: .75rem 2.5rem;
+  border-radius: .5rem;
+  transition: .3s;
+  cursor: pointer;
+}
+.download__Button{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-weight: var(--font-semi);
+  cursor: pointer;
+}
 
 /* ===== SKILLS =====*/
 .skills__container {
