@@ -375,11 +375,15 @@ img {
   cursor: pointer;
 }
 .download__Button{
+  align-items: center;
   background-color: transparent;
   border: none;
   color: #fff;
   font-weight: var(--font-semi);
   cursor: pointer;
+}
+@media screen {
+  
 }
 
 /* ===== SKILLS =====*/
