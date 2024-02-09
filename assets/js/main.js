@@ -67,3 +67,11 @@ sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{});
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.project__img, .skills__data, .course__img',{interval: 200}); 
+
+
+// download mobile
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    document.getElementById('downloadButton').style.display = 'block';
+} else {
+    document.getElementById('downloadButton').style.display = 'none';
+}
