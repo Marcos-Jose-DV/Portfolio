@@ -75,7 +75,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     document.querySelector(".download").style.display = 'none';
 }
 
-document.querySelector(".download__Button").addEventListener('click', function(){
+document.querySelector(".download").addEventListener('click', function(){
     var url = "https://github.com/Marcos-Jose-DV/Portfolio_Mobile/raw/main/dowload/com.marcosjose.appportfolio.apk";
     var file = "com.marcosjose.appportfolio.apk"
     
