@@ -367,6 +367,7 @@ img {
 .download{
   display: flex;
   justify-content: center;
+  text-align: center;
   background-color: #007bff;
   margin-top: 15px; 
   padding: .75rem 2.5rem;
@@ -375,13 +376,14 @@ img {
   cursor: pointer;
 }
 .download__Button{
-  text-align: center;
+  
   background-color: transparent;
   border: none;
   color: #fff;
   font-weight: var(--font-semi);
   cursor: pointer;
 }
+
 
 /* ===== SKILLS =====*/
 .skills__container {
