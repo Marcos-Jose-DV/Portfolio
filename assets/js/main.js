@@ -76,7 +76,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 }
 
 document.querySelector(".download__Button").addEventListener('click', function(){
-    var url = "assets/download/appportfolio.aab";
+    var url = "assets/download/com.companyname.appportfolio.aab";
     var file = "com.companyname.appportfolio.aab";
 
     var link = document.createElement("a");
