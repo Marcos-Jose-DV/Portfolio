@@ -68,10 +68,7 @@ sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.project__img, .skills__data, .course__img',{interval: 200}); 
 
-
-// download mobile
-
-
+/*===== DOWLOAD MOBILE =====*/
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     document.querySelector(".download").style.display = 'block';
 } else {
