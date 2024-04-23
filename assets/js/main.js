@@ -87,7 +87,7 @@ document.querySelector(".download__apk").addEventListener('click', function () {
     link.click();
     document.querySelector(".download__apk").removeChild(link);
 });
-
+/*===== Link Projects =====*/
 document.querySelectorAll(".link__button").forEach(app => {
     app.onclick = () => {
         var parameter = app.querySelector(".download__Button").dataset.app;
