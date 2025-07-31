@@ -18,8 +18,8 @@
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
   /*===== Margenes =====*/
-  --mb-2: 1rem;
-  --mb-4: 2rem;
+  --mb-2: 3rem;
+  --mb-4: 3rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
   /*===== z index =====*/
@@ -29,7 +29,7 @@
 
 @media screen and (min-width: 968px) {
   :root {
-    --big-font-size: 3.5rem;
+    --big-font-size: 3.4rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
     --smaller-font-size: .875rem;
@@ -107,7 +107,7 @@ img {
 
 /*===== LAYOUT =====*/
 .bd-grid {
-  max-width: 1024px;
+  max-width: 1080px;
   display: grid;
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
